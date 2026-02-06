@@ -17,6 +17,7 @@ public class EmployeeTest {
 		 */
 		baseURI="http://localhost:8080/employees/get";
 		given().get().getBody().asString();
+		System.out.println("this is testing");
 		
 	}
 
